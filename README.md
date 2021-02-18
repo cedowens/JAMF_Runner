@@ -19,3 +19,18 @@ To Run All Options at Once:
 To Run Certain Options:
 
 >  sudo ./JAMF-Runner [option1] [option2] ....
+
+## Steps:
+
+> git clone https://github.com/cedowens/JAMF_Runner
+
+- ensure you have swift and developer tools installed (can install from the mac app store)
+
+- load JAMF-Runner.xcodeproj into XCode and make any changes you desire to the main.swift file
+
+To build the macho binary:
+
+> cd JAMF_Runner && swift build
+
+
+
